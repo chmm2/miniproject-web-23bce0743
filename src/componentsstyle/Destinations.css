@@ -141,7 +141,7 @@
 
 .destination-modal {
   background-color: var(--background-color);
-  border-radius: 15px;
+  border-radius: 200px;
   width: 100%;
   max-width: 800px;
   max-height: 90vh;
@@ -163,8 +163,8 @@
 
 .close-modal {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 2rem;
+  right: 5rem;
   background: none;
   border: none;
   color: var(--text-color);
@@ -187,7 +187,7 @@
 }
 
 .modal-image {
-  width: 100%;
+  width: 160%;
   height: 300px;
   overflow: hidden;
 }
@@ -234,7 +234,7 @@
 }
 
 .modal-add-to-cart {
-  padding: 1rem 2rem;
+  padding: 1rem 5em;
   background-color: var(--primary-color);
   color: black;
   border: none;
